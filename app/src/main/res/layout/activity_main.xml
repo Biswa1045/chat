@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+
+        android:textColor="#FF9800"
+        android:text="Sign In"
+        android:textAlignment="center"/>
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#FF9800"
+        app:cardCornerRadius="10dp" >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:id="@+id/email_signin"
+            android:background="@null"
+            android:textStyle="bold"
+            android:hint="Enter your Email address"
+            android:textColorHint="#6FFFFFFF"
+            android:inputType="textEmailAddress"/>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="#FF9800"
+        app:cardCornerRadius="10dp" >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:background="@null"
+        android:textStyle="bold"
+        android:id="@+id/password_signin"
+        android:hint="Password"
+        android:textColorHint="#6FFFFFFF"
+        android:inputType="textVisiblePassword"/>
+    </androidx.cardview.widget.CardView>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Sign in"
+    android:backgroundTint="#4CAF50"
+    android:layout_marginTop="50dp"
+    android:id="@+id/signin_btn"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="craete a account,Register"
+    android:layout_marginTop="20dp"
+    android:id="@+id/signup_text"
+    android:textColor="@color/purple_500"/>
+
+</LinearLayout>

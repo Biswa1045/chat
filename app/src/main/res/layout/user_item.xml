@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:backgroundTint="@color/white"
+    android:layout_height="50dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/txt_name"
+    android:text="Biswajit"
+    android:textColor="@color/black"
+    android:textSize="28dp"
+    android:textStyle="bold"
+    android:layout_marginLeft="10dp"/>
+</androidx.cardview.widget.CardView>

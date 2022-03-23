@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "176381383405",
+    "project_id": "chat-2c09f",
+    "storage_bucket": "chat-2c09f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176381383405:android:10ce7c354a372e34f2b2e4",
+        "android_client_info": {
+          "package_name": "com.biswa1045.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176381383405-l08gcm0uhtkq6noq2bbu5juis87kc7mf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKLl0tKgZlMmpNWJecnWSin3TITS_MN8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176381383405-l08gcm0uhtkq6noq2bbu5juis87kc7mf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
