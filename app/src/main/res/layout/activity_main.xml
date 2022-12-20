@@ -69,6 +69,14 @@
     android:layout_marginTop="50dp"
     android:id="@+id/signin_btn"
     />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in with google"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginTop="50dp"
+        android:id="@+id/signin_with_google"
+        />
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"

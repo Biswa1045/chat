@@ -1,15 +1,19 @@
 package com.biswa1045.chat
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.ProgressBar
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.GetTokenResult
 import com.google.firebase.database.*
+
 
 class HomeActivity : AppCompatActivity() {
     private lateinit var user_recycle: RecyclerView
@@ -34,6 +38,7 @@ class HomeActivity : AppCompatActivity() {
         user_recycle.layoutManager = LinearLayoutManager(this)
         user_recycle.adapter = adapter
         progress_circular_bar = findViewById(R.id.progress_circular_bar)
+
 
 
 
