@@ -38,15 +38,9 @@ class HomeActivity : AppCompatActivity() {
         user_recycle.layoutManager = LinearLayoutManager(this)
         user_recycle.adapter = adapter
         progress_circular_bar = findViewById(R.id.progress_circular_bar)
-
-
-
-
-
         mref.child("user").addValueEventListener(object: ValueEventListener {
 
             override fun onDataChange(snapshot: DataSnapshot) {
-
                userList.clear()
                 for(postSnapshot in snapshot.children){
                     val currentUser = postSnapshot.getValue(User::class.java)

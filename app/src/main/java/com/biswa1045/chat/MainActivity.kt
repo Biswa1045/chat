@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         password = findViewById(R.id.password_signin)
         signin = findViewById(R.id.signin_btn)
         signup = findViewById(R.id.signup_text)
-        withgoogle = findViewById(R.id.signin_with_google)
+//        withgoogle = findViewById(R.id.signin_with_google)
         signin.setOnClickListener{
             val email_txt = email.text.toString()
             val password_txt = password.text.toString()
